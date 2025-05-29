@@ -34,3 +34,12 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+
+
+## Lily58 RGB Pro avec un Pro mocrp RP2040
+
+- Ouvrir QMK MSYS
+- Aller sur le répertoire de ce git
+- qmk compile -kb lily58/pro_rgb_rev1 -km vial -e CONVERT_TO=rp2040_ce
+
